@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+canvas {
+  filter: blur(0px) contrast(160%);
+}
+
+audio {
+  position: absolute;
+  margin-left: 50%;
+  z-index: 1000;
+}
